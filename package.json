@@ -1,0 +1,32 @@
+{
+  "name": "brewerydb-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "6.x"
+  },
+  "scripts": {
+    "start:dev": "NODE_ENV=\"development\" nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint ./index.js ./lib/*"
+  },
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1",
+    "helmet": "^3.6.1",
+    "npmlog": "^4.1.0",
+    "passport": "^0.3.2",
+    "passport-untappd": "^1.0.0",
+    "redis": "^2.7.1",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "nodemon": "^1.11.0"
+  }
+}
