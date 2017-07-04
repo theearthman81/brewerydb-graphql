@@ -3,6 +3,22 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimenglish81/brewerydb-graphql.git"
+  },
+  "keywords": [
+    "brewerydb",
+    "beer",
+    "express",
+    "GraphQL",
+    "node"
+  ],
+  "author": "Jim English",
+  "bugs": {
+    "url": "https://github.com/jimenglish81/brewerydb-graphql/issues"
+  },
+  "homepage": "https://github.com/jimenglish81/brewerydb-graphql#readme",
   "engines": {
     "node": "6.x"
   },
@@ -18,9 +34,6 @@
     "graphql": "^0.10.1",
     "helmet": "^3.6.1",
     "npmlog": "^4.1.0",
-    "passport": "^0.3.2",
-    "passport-untappd": "^1.0.0",
-    "redis": "^2.7.1",
     "request-promise": "^4.2.1"
   },
   "devDependencies": {
