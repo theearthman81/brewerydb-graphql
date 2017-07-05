@@ -1,4 +1,4 @@
-# Brewery graphQL
+# BreweryDB graphQL
 
 GraphQL wrapper around the [BreweryDB API](http://www.brewerydb.com/developers/docs).
 
