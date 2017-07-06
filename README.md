@@ -4,7 +4,7 @@ GraphQL wrapper around the [BreweryDB API](http://www.brewerydb.com/developers/d
 
 ## How to use it
 
-Set an environmental variable of `API_KEY` to you Brewerydb API key, acquired [here](http://www.brewerydb.com/developers/apps), and run `yarn start:dev` for the development version with the graphiql interface.
+Set an environmental variable of `API_KEY` to your Brewerydb API key, acquired [here](http://www.brewerydb.com/developers/apps), and run `yarn start:dev` for the development version with the graphiql interface.
 
 ## Example query
 
